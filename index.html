@@ -11,16 +11,20 @@
         src="https://gastrocolegas.com/wp-content/uploads/2017/01/Mozza-Bar-Logo.png"
         alt="Logo empresa"
       />
-      <input type="text" name="Home" placeholder="Home" />
-      <input type="text" name="Concepto" placeholder="Concepto" />
-      <input type="text" name="Fotos" placeholder="Fotos" />
-      <input type="text" name="Menú" placeholder="Menú" />
-      <input type="text" name="Reservas" placeholder="Reserva" />
-      <input type="text" name="Blog" placeholder="Blog" />
-      <input type="text" name="Contacto" placeholder="Contacto" />
+      <nav>
+        <ul>
+          <li><a href="enlace">HOME</a></li>
+          <li><a href="enlace">CONCEPTO</a></li>
+          <li><a href="enlace">FOTOS</a></li>
+          <li><a href="enlace">MENU</a></li>
+          <li><a href="enlace">RESERVAS</a></li>
+          <li><a href="enlace">BLOG</a></li>
+          <li><a href="enlace">CONTACTO</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <div>
+      <div class="principal">
         <h2>Descubre</h2>
       </div>
       <div>
@@ -29,28 +33,39 @@
       <div>
         <h4>WE ARE OPEN</h4>
       </div>
-      <div>
+      <div class="fondo principal"></div>
+      <div class="fondo secundario">
         <img
-        src="https://media.istockphoto.com/id/1190356145/es/foto/ardoiris-suizo-acelar-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=uw27GPm7xj6Fk2ro0PvlxKHS0HGb9rYu8tZTO5WRouQ="
-        alt="acelga"
+          src="https://media.istockphoto.com/id/1190356145/es/foto/ardoiris-suizo-acelar-aislado-en-blanco.jpg?s=612x612&w=0&k=20&c=uw27GPm7xj6Fk2ro0PvlxKHS0HGb9rYu8tZTO5WRouQ="
+          alt="acelga"
         />
         <h3>CONCEPTO</h3>
         <img
-        src="https://www.gaspachoselboulevard.mx/wp-content/uploads/2013/10/Jgo_Naranja_preview.jpg"
-        alt="zumo de naranja"
-      />
+          src="https://www.gaspachoselboulevard.mx/wp-content/uploads/2013/10/Jgo_Naranja_preview.jpg"
+          alt="zumo de naranja"
+        />
       </div>
-      <div>
-        <img
-        src="https://applications-media.feverup.com/image/upload/f_auto,w_550,h_550/fever2/plan/photo/f21ae68c-b39b-11ed-a13f-92546faf7323.png"
-        alt="bar"
-      />
-      </div>
-      <div>
-        <img
-        src="https://applications-media.feverup.com/image/upload/f_auto,w_550,h_550/fever2/plan/photo/f21ae68c-b39b-11ed-a13f-92546faf7323.png"
-        alt="bar"
-      />
+      <div class="galeria">
+        <ul>
+          <li>
+            <img
+              src="https://applications-media.feverup.com/image/upload/f_auto,w_550,h_550/fever2/plan/photo/f21ae68c-b39b-11ed-a13f-92546faf7323.png"
+              alt="bar"
+            />
+          </li>
+          <li>
+            <img
+              src="https://applications-media.feverup.com/image/upload/f_auto,w_550,h_550/fever2/plan/photo/f21ae68c-b39b-11ed-a13f-92546faf7323.png"
+              alt="bar"
+            />
+          </li>
+          <li>
+            <img
+              src="https://applications-media.feverup.com/image/upload/f_auto,w_550,h_550/fever2/plan/photo/f21ae68c-b39b-11ed-a13f-92546faf7323.png"
+              alt="bar"
+            />
+          </li>
+        </ul>
       </div>
       <div>
         <h3>CARTA</h3>
@@ -58,7 +73,8 @@
         <h4>Carta</h4>
         <h4>Cocteles</h4>
       </div>
-      <div>
+      <div class="fondo de carta"></div>
+      <div class="carta izquierda">
         <h4>Dulces</h4>
         <ul>
           <li>tarta zanahora</li>
@@ -90,6 +106,8 @@
           <li>chocolate</li>
           <li>fresa</li>
         </ul>
+      </div>
+      <div class="carta derecha">
         <h4>salado</h4>
         <ul>
           <li>tostada con tomate</li>
@@ -113,72 +131,135 @@
         </ul>
       </div>
       <div>
-        <h4>VER LA CARTA DE DESAYUNOS</h4>
+        <a href="enlace X">VER LA CARTA DE DESAYUNOS</a>
       </div>
       <div>
         <h3>RESERVAS</h3>
         <form action="/">
-            <label for="Personas">
-                <h4>Personas</h4>
-                <input type="text" name="numero" placeholder="2 personas"/> 
-                <h4>Hora</h4>
-                <select>
-                    <option>Seleccione hora</option>
-                    <option>19:00</option>
-                    <option>20:00</option>
-                    <option>21:00</option>
-                    <option>22:00</option>
-                </select>
-                <h4>Seleccione tipo de mesa</h4>
-                <select>
-                    <option>Seleccione tipo de mesa</option>
-                    <option>Mesa redona</option>
-                    <option>Mesa cuadrada</option>
-                    <option>Mesa retangular</option>
-                    <option>Mesa barra</option>
-                </select>
-            </label>
-            <input type="submit" value="Reservar"/>
-        <div>
-            <p>Si no encuentras disponibilidad, apuntate en una lista de espera</p>
-            <input type="submit" value="Lista de espera"/>
-            <input type="submit" value="solicitud de grupo"/>
-        </div>
-        <div>
-            <h3>MOZZABAR FOOD&DRINKS</h3>
-            <p>Conde de peñalver 64
-                28006-Madrid
-                Abrimos de lunes a domingo
-                de 07:30 a 01:30
+          <label for="Personas">
+            <h4>Personas</h4>
+            <input type="text" name="numero" placeholder="2 personas" />
+            <h4>Hora</h4>
+            <select>
+              <option>Seleccione hora</option>
+              <option>19:00</option>
+              <option>20:00</option>
+              <option>21:00</option>
+              <option>22:00</option>
+            </select>
+            <h4>Seleccione tipo de mesa</h4>
+            <select>
+              <option>Seleccione tipo de mesa</option>
+              <option>Mesa redona</option>
+              <option>Mesa cuadrada</option>
+              <option>Mesa retangular</option>
+              <option>Mesa barra</option>
+            </select>
+          </label>
+          <input type="submit" value="Reservar" />
+          <div>
+            <p>
+              Si no encuentras disponibilidad, apuntate en una lista de espera
             </p>
-        </div>
+            <input type="submit" value="Lista de espera" />
+            <input type="submit" value="solicitud de grupo" />
+          </div>
+          <div class="datos contacto">
+            <h3>MOZZABAR FOOD&DRINKS</h3>
+            <p>
+              Conde de peñalver 64 28006-Madrid Abrimos de lunes a domingo de
+              07:30 a 01:30
+            </p>
+          </div>
         </form>
       </div>
-      <div>
+      <div class="fondo del blog">
         <h3>BLOG</h3>
-        <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de te</h4>
-        <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de te</h4>
-        <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de te</h4>
+        <ul>
+          <li>
+            <a href="pagina del blog">Bar abre nueva terraza de verano eb bombay lounge</a>
+          </li>
+          <li>
+            <a href="pagina del blog"> Promocion especial tarta&cocktauil</a>
+          </li>
+          <li>
+            <a href="pagina del blog">Mozzbar bar brunch 2 de marzo</a>
+          </li>
+        </ul>
       </div>
-      <div>
-        <h4>VER TODAS LAS ENTRADAS</h4>
+      <div class="todo el blog">
+        <a href="para todo el blog">VER TODAS LAS ENTRADAS</a>
       </div>
       <div>
         <h3>SIGUENOS</h3>
-        <a href="https://www.instagram.com/mozza_bar/?hl=es">Instagram</a>
-        <a href="https://facebook.com/restaurantemozzamadrid/?locale=es_LA">facebook</a>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/mozza_bar/?hl=es">Instagram</a>
+          </li>
+          <li>
+            <a href="https://facebook.com/restaurantemozzamadrid/?locale=es_LA">Facebook</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img
+        src="https://gastrocolegas.com/wp-content/uploads/2017/01/Mozza-Bar-Logo.png"
+        alt="Logo empresa"
+      />
+        <p>VEN CUANDO QUIERAS</p>
+        <ul>
+          <li>
+            <a href="https://www.google.com/maps/place/Le+Buffle+Mozzabar/@40.8456839,14.2454215,17z/data=!3m1!4b1!4m6!3m5!1s0x133b085a54a34dab:0x52976d11563b92e7!8m2!3d40.8456839!4d14.2479964!16s%2Fg%2F11h4s7fw8l?entry=ttu" title="Mapa">
+              <img
+              src="https://www.google.com/images/branding/product/2x/maps_96in128dp.png"
+              alt="mapa"
+            />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/search?q=upgrade+hub&sca_esv=586595587&sxsrf=AM9HkKmdFjw-DkoYRnkddvvKDv32a4vfiA%3A1701341889016&ei=wWpoZfNOiq2R1Q_ihoz4DQ&oq=up&gs_lp=Egxnd3Mtd2l6LXNlcnAiAnVwKgIIADIKECMYgAQYigUYJzIREC4YgAQYsQMYgwEYxwEY0QMyERAuGIAEGLEDGIMBGMcBGNEDMgsQABiABBixAxiDATIFEAAYgAQyCxAAGIAEGLEDGIMBMgUQABiABDILEAAYgAQYsQMYgwEyDhAuGIAEGLEDGMcBGNEDMgsQABiABBixAxiDAUiYEVAAWPAEcAF4AJABAJgBVaABpAGqAQEyuAEByAEA-AEBqAIUwgIHECMY6gIYJ8ICExAAGIAEGIoFGOoCGLQCGEPYAQHCAhQQABiABBjjBBjpBBjqAhi0AtgBAcICFhAAGAMYjwEY5QIY6gIYtAIYjAPYAQLCAhYQLhgDGI8BGOUCGOoCGLQCGIwD2AECwgIEECMYJ8ICERAuGIMBGMcBGLEDGNEDGIAE4gMEGAAgQYgGAboGBggBEAEYAboGBggCEAEYCw&sclient=gws-wiz-serp" title="telefono">
+              <img
+              src="https://e7.pngegg.com/pngimages/441/336/png-clipart-phone-phone-thumbnail.png"
+              alt="telefono"
+            />
+            </a>
+          </li>
+          <li>
+            <a href="enlace email" title="email">
+              <img
+              src="https://www.unex.es/conoce-la-uex/centros/epcc/archivos/imagenes/epcc-iconos/ICONO%20CORREO%20ELECTRONICO.png/image_preview"
+              alt="email"
+            />
+            </a>
+          </li>
+        </ul>
       </div>
     </main>
     <footer>
-        <h4>ENLACES DE INTERES</h4>
-        <P>Aviso legal</P>
-        <p>Cookies</p>
-        <h4>HORARIOS</h4>
-        <P>Lunes a domingo 07:30 a 01:30</P>
-        <h4>CONTACTO</h4>
-        <P>C/ conde de peñalver 64</P>
-        <p>910258327</p>
-        <p>hola@mozzabar.es</p>
+      <ul>
+        <li>ENLACES DE INTERES
+          <p>Aviso legal</p>
+          <p>Cookies</p>
+        </li>
+        <li>HORARIOS
+          <p>Lunes a domingo 07:30 a 01:30</p>
+        </li>
+        <li>CONTACTO
+          <p>C/ conde de peñalver 64</p>
+          <p>910258327</p>
+          <p>hola@mozzabar.es</p>
+        </li>
+      </ul>
+      <a href="https://www.instagram.com/mozza_bar/?hl=es" title="Instagram">
+        <img
+        src="https://assets.stickpng.com/images/627ba7278d659819b11084f4.png"
+        alt="instagram"
+      />
+      <a href="https://facebook.com/restaurantemozzamadrid/?locale=es_LA" title="Facebook">
+        <img
+        src="https://png.pngtree.com/element_our/png_detail/20181011/facebook-social-media-icon-design-template-vector-png_127003.png"
+        alt="facebook"
+      />
     </footer>
   </body>
 </html>
